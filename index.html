@@ -87,14 +87,22 @@
 
                   <!-- Github link -->
                   <span class="link-block">
-                    <!-- <a href="https://github.com/YOUR REPO HERE" target="_blank"
-                    class="external-link button is-normal is-rounded is-dark"> -->
+                    <a href="#"
+                    class="external-link button is-normal is-rounded is-dark is-disabled disabled-button" onclick="return false;">
                     <span class="icon">
                       <i class="fab fa-github"></i>
                     </span>
-                    <span>Code - Coming Soon...</span>
+                    <span>Code (Coming Soon)</span>
                   </a>
                 </span>
+
+                <style>
+                  .disabled-button{
+                    opacity: 0.5;
+                    cursor: not-allowed;
+                    pointer-events: none;
+                  }
+                </style>
 
                 <!-- ArXiv abstract Link -->
                 <span class="link-block">
